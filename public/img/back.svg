@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="82"
+   height="80"
+   viewBox="0 0 82 80"
+   fill="none"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="ouvir (cópia)_inv.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="5.1875"
+     inkscape:cx="-3.0843373"
+     inkscape:cy="51.855422"
+     inkscape:window-width="2560"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <rect
+     x="-81.487038"
+     width="80.974098"
+     height="80"
+     rx="40"
+     fill="#1686ee"
+     id="rect2"
+     y="0"
+     transform="scale(-1,1)" />
+  <g
+     clip-path="url(#clip0_51_1992)"
+     id="g6"
+     transform="matrix(-1,0,0,1,81.999976,0)">
+    <path
+       d="m 33,29.64 v 20.72 c 0,1.58 1.74,2.54 3.08,1.68 L 52.36,41.68 c 1.24,-0.78 1.24,-2.58 0,-3.38 L 36.08,27.96 C 34.74,27.1 33,28.06 33,29.64 Z"
+       fill="#ffffff"
+       id="path4" />
+  </g>
+  <defs
+     id="defs11">
+    <clipPath
+       id="clip0_51_1992">
+      <rect
+         width="48"
+         height="48"
+         fill="white"
+         transform="translate(17 16)"
+         id="rect8" />
+    </clipPath>
+  </defs>
+</svg>

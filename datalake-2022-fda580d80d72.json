@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "datalake-2022",
+  "private_key_id": "fda580d80d7292becb823e073df25157e9f81562",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQChgrVmiv0VufYw\naBiMFKbzhBNuPzP05B1qy0mfX1lSCUttTEGNmPEIqMzGF3Njhjeq7pYhXbv5iUcJ\nQkydCEhNg6Lz8NF0UJnhput/zK2dJ7Tnd5Fg9yt5r+wI9ztFM+M1D2gqmMVjE7he\n7PQ215W5gKfTj2sEurgsldeQ1tf5y6BcBc3TI0V2yr+7kHaGTINyGF3KHxxcQXbJ\nfcJsAjw2zvjwgrhnSICCyWlSfazIhZ7j/djfTx0zYCZuywqV3zrhgMJJiqvhMkZc\nXu+mKQZe0o3but7lWoLgP8spFgA7wZ8CGw1p3jFWH1FEGwRT2v/Q5ZYfe7HoS3kk\niDDhpSSFAgMBAAECggEANiWfkkrLkYKgXlcvz5rG5AImD4KB9TqbACg6PQOW6vFx\nx6lWmtWpDVmmGU1YYofnVteZHoOR1xVmaty+2bCiqNYWhgj497Fj/apb7qMcm4Dp\n3eYQp70F5syLafAU/1znce0B47IHDvHYEH8JWu+I40GWQk+lNdcxksUDmavliXlq\nHGXMZCR6ojYopyvzWE+f8zhiaRcjIvH9wcYZbBe2Luxxz8FaChQE5TjM8VVV5R3w\nIQGlAl7dageKnD6XadE9ru59oRsq7TQUMt4loa5SsUVMrwBkcJfMri2pXxeazyUo\nkDBNJeLURfTcsxfJGRIu441NDIp+1wjJ1dpsSEm0WwKBgQDQxTX4u5dMzTlGjDSQ\n3M8mt+crKXIkQHKrw+wD7bcY1YH2Dc0dn8L1kuAwpPpYgMZRbI1iFCyPW5RMewVz\nGOW5u11ggHscLfUsu2wbIizGd9/SGRSoF9NAj6rqcQ+gC0zMmdpPRLgy3CkYnBep\nEjIeiRYdHzmHAAbrNf3OtvEu9wKBgQDGDHsg9gziu2uzcD0pDo+EmbQ6gRsAvcvo\nLqjsIrwbhoIdqgRvV/PS9rIaLbR19Bp47tcbfJaQdzxAWQVJ1o4Yc+pdZz/JTPZN\nGYILRgp4wRwzlhThW2fGC+FtY8eBcIupgyzYDkbg4N2rfN4xId8JVGRNJxApMzPg\nexDW9uIdYwKBgQDBmC8tYZ+zK5fSUM+qCejaqaznfH6JGW5806j4F6czk0H5zuCH\neRAMM9BLq6EvEvNUrEoLSlPr+Gtz5JywF8Vnz1SO2XXQMtnpSj+8hZtpy9208WcT\nXUyb0N4YmxF3QyNLk9w6p6n8F+bQGGdkdCgf4tWr2bm584927FFZMJJFDwKBgQCR\niVpyPl35wADFPBW1th2BM/Jdi8JsKQ1O8frwjBXvpEi5w9a+e8ORo/f9hNi4VUme\n1OT+Le/2+agtIT3hpOmGzqfLO7SEGSpmPfhykGXhlwdCYWe2s5Tu1Iwz9r8FP89i\nIiMyIkuztYswGfKt6FYeZQXQLISTwiy9KbKWRZakQQKBgB3lg5tus2nurcRUMIkD\nz//emqBp9Ot9zTgQLTTseAjMWQuWhESjnxMw7hia2II2kTbPKtWRkEUQCEpKJYEw\nSARVy/Sx8Sh+e391nc4gzssh19VZtQnZ/uSc/AU2bMH8Ih2oOKhkqe8mSQLAGXgU\not/b4caBUfFH84CuGqW71qz6\n-----END PRIVATE KEY-----\n",
+  "client_email": "bioaudio@datalake-2022.iam.gserviceaccount.com",
+  "client_id": "105740853149319928444",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bioaudio%40datalake-2022.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

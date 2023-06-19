@@ -55,7 +55,8 @@
         audioData.append('audio', blob, '{}_audioRec_{}.wav'.format(date , state_ctrl-1));
 
         console.log("VVVVVVV Audio data: ", audioData);
-        fetch('http://localhost:5000/upload-audio', {
+        //fetch('http://localhost:5000/upload-audio', {
+        fetch('https://biogatherer-x4fs6sryfq-rj.a.run.app/upload-audio', {
             mode: 'cors',
             method: 'POST',
             body: audioData,})

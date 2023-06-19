@@ -67,7 +67,8 @@
 
     function back_work (){        
         console.log(jsonData)
-        fetch('http://localhost:5000/upload-info', {
+        //fetch('http://localhost:5000/upload-info', {
+        fetch('https://biogatherer-x4fs6sryfq-rj.a.run.app/upload-info', {
             mode: 'cors',
             method: 'POST',
             headers: {

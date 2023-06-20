@@ -24,8 +24,9 @@
         const idade = document.querySelector('input[name="idade"]');
         const sexo = document.querySelector('input[name="sexo"]:checked');
         const pneumo = document.querySelector('input[name="pneumo"]:checked');
+        const doenc_resp = document.querySelector('input[name="doenc_resp"]:checked');
 
-        return fumante && idade.value && sexo && pneumo;
+        return fumante && idade.value && sexo && pneumo && doenc_resp;
     }
 
     function salvarFormulario() {
@@ -34,13 +35,15 @@
         const idade = document.querySelector('input[name="idade"]').value;
         const sexo = document.querySelector('input[name="sexo"]:checked').value;
         const pneumo = document.querySelector('input[name="pneumo"]:checked').value;
+        const doenc_resp = document.querySelector('input[name="doenc_resp"]:checked').value;
 
         const formulario = {
             data,
             fumante,
             idade,
             sexo,
-            pneumo
+            pneumo,
+            doenc_resp
         };
 
         jsonData = JSON.stringify(formulario, null, 2);

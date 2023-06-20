@@ -60,19 +60,39 @@
 		<Page_3 {page3_next_allow} bind:counter={state_ctrl} on:increment={handleIncrement}/>		
 		<Recorder {state_ctrl} {date} bind:page3_next_allow={page3_next_allow} on:change={handleStateChange_page3}/>		
 		<Next_Back {state_ctrl} {page3_next_allow} {page4_next_allow} {page5_next_allow} bind:counter={state_ctrl} on:increment={handleIncrement}/>
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_empty.png">
+		<img height=15 src="./img/ellipse_empty.png">
+		<img height=15 src="./img/ellipse_empty.png">
+		<img height=15 src="./img/ellipse_empty.png">
 	{/if}
 	{#if state_ctrl==3}
 		<Page_4 {page4_next_allow} bind:counter={state_ctrl} on:increment={handleIncrement}/>
 		<Recorder {state_ctrl} {date} bind:page4_next_allow={page4_next_allow} on:change={handleStateChange_page4}/>
 		<Next_Back {state_ctrl} {page3_next_allow} {page4_next_allow} {page5_next_allow} bind:counter={state_ctrl} on:increment={handleIncrement}/>
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_empty.png">
+		<img height=15 src="./img/ellipse_empty.png">
+		<img height=15 src="./img/ellipse_empty.png">
 	{/if}
 	{#if state_ctrl==4}
 		<Page_5 {page5_next_allow} bind:counter={state_ctrl} on:increment={handleIncrement}/>
 		<Recorder {state_ctrl} {date} bind:page5_next_allow={page5_next_allow} on:change={handleStateChange_page5}/>
 		<Next_Back {state_ctrl} {page3_next_allow} {page4_next_allow} {page5_next_allow} bind:counter={state_ctrl} on:increment={handleIncrement}/>
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_empty.png">
+		<img height=15 src="./img/ellipse_empty.png">
 	{/if}
 	{#if state_ctrl==5}
 		<Page_6 {date} bind:counter={state_ctrl} on:increment={handleIncrement}/>
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_full.png">
+		<img height=15 src="./img/ellipse_empty.png">
 	{/if}
 	{#if state_ctrl==6}
 		<Page_7 bind:counter={state_ctrl} on:increment={handleIncrement}/>

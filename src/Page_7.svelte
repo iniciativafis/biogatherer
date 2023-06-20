@@ -25,6 +25,8 @@
 <br>
 
 <button class='button_style' on:click={restart_app}> <img width=70 height=70 src="./img/ok.png"> </button>
+<br>
+<p3>Tudo certo!</p3>
 
 <style>
 	p {
@@ -46,6 +48,16 @@
 		/*font-size: 2em;*/
 		font-size: 15.5px;
 		font-weight: 400;
+	}
+
+	p3 {
+		color: #71e7ac;		
+        font-size: 20px;
+		text-align: center;
+		font-weight: 500;
+		/*padding: 1em;*/
+		max-width: 240px;
+		margin: 0 auto;
 	}
 
 	.button_style {

@@ -139,9 +139,27 @@
                           name="pneumo"
                           value="sim_pneumo" />
         </label>
+        <label>Incerto<input type="radio"
+            name="pneumo"
+            value="incerto_pneumo" />
+        </label>
         <label>Não<input type="radio"
                             name="pneumo"
                             value="nao_pneumo" />
+        </label>
+	</div>
+
+    <spacing>-</spacing>
+    <br>
+    <div>
+		<p1> O paciente está com alguma outra doença respiratória? </p1>
+        <label>Sim<input type="radio"
+                          name="doenc_resp"
+                          value="sim_doenc_resp" />
+        </label>
+        <label>Não<input type="radio"
+                            name="doenc_resp"
+                            value="nao_doenc_resp" />
         </label>
 	</div>
 
@@ -162,7 +180,7 @@
     <spacing>-</spacing>
     <br>
 	<div>
-		<label for='idade'> <p1>Idade</p1> </label>
+		<label for='idade'> <p1> Qual é a idade do paciente? </p1> </label>
 		<input name='idade' type="number" inputmode="numeric" pattern="[0-9]{3}" title="Insira a idade. Use apenas números. (ex: 18)" on:input={validarIdade} min="1" max="130" step="1"/>
 	</div>
 

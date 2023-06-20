@@ -30,6 +30,7 @@
     let state = "waiting";
     
     let rec_icon = '<img width=70 height=70 src="./img/gravar.png">';
+    let button_state = 'rec';
 
     function onStop(e) {
         console.log("recorder stopped");
@@ -73,6 +74,13 @@
                     if (e.data.size > 0) chunks.push(e.data);
                 }
             mediaRecorder.onstop = onStop;
+            mediaRecorder.onstart = () => {
+                setTimeout(() => {
+                    if (state === "recording") {
+                        stop();
+                    }
+                }, 5000); // 5 segundos
+            }
         }
     }
 
@@ -96,6 +104,7 @@
         }
         
         rec_icon = '<img width=70 height=70 src="./img/gravar_off.png">';
+        button_state = 'stop';
     }
 
     function stop() {
@@ -105,6 +114,7 @@
         console.log("recorder stopped");
         
         rec_icon = '<img width=70 height=70 src="./img/gravar.png">';
+        button_state = 'rec';
 
         if (state_ctrl == 2 && next_after_play_p3 == true){
             page3_next_allow = true;
@@ -166,8 +176,16 @@
             <br>
 
             <div id="buttons" class="mx-auto h-28">
-                <button class="button_style"   on:click={record} bind:this={recordButton}> {@html rec_icon} </button>
-                <button class="button_style"   on:click={stop}>                            <img width=70 height=70 src="./img/parar.png"> </button>
+                {#if button_state == 'rec'}
+                    <button class="button_style"   on:click={record} bind:this={recordButton}> {@html rec_icon} </button>
+                    <br>
+                    <p>Gravar</p>
+                {/if}
+                {#if button_state == 'stop'}
+                    <button class="button_style"   on:click={stop}>                            <img width=70 height=70 src="./img/parar.png"> </button>
+                    <br>
+                    <p>Parar</p>
+                {/if}
             </div>
 
             <spacing>-</spacing>
@@ -189,5 +207,14 @@
     spacing {
 		color: #ffffff;		
 		font-size: 1em;
+	}
+
+    p {
+        font-size: 20px;
+		text-align: center;
+		font-weight: 500;
+		/*padding: 1em;*/
+		max-width: 240px;
+		margin: 0 auto;
 	}
 </style>

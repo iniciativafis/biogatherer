@@ -105,7 +105,7 @@
 </script>
 
 
-<p> <img  height=25 src="./img/p_4.png"> Anamnese</p>
+<p> <img style="vertical-align:middle" height=25 src="./img/p_4.png"> Anamnese</p>
 
 <spacing>-</spacing>
 <br>

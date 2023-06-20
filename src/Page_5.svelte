@@ -18,7 +18,7 @@
 </script>
 
 
-<p> <img  height=25 src="./img/p_3.png"> Frase</p>
+<p> <img style="vertical-align:middle" height=25 src="./img/p_3.png"> Frase</p>
 <p1>Grave agora a frase indicada:</p1>
 <br>
 

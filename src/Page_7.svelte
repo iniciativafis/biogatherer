@@ -12,7 +12,7 @@
 
 </script>
 
-<p> <img  height=25 src="./img/p_5.png"> Salvo</p>
+<p> <img style="vertical-align:middle" height=25 src="./img/p_5.png"> Salvo</p>
 <spacing>-</spacing>
 <br>
 <p1>Registro feito com sucesso!</p1>

@@ -25,8 +25,9 @@
         const sexo = document.querySelector('input[name="sexo"]:checked');
         const pneumo = document.querySelector('input[name="pneumo"]:checked');
         const doenc_resp = document.querySelector('input[name="doenc_resp"]:checked');
+        const covid = document.querySelector('input[name="covid"]:checked');
 
-        return fumante && idade.value && sexo && pneumo && doenc_resp;
+        return fumante && idade.value && sexo && pneumo && doenc_resp && covid;
     }
 
     function salvarFormulario() {
@@ -36,6 +37,10 @@
         const sexo = document.querySelector('input[name="sexo"]:checked').value;
         const pneumo = document.querySelector('input[name="pneumo"]:checked').value;
         const doenc_resp = document.querySelector('input[name="doenc_resp"]:checked').value;
+        const covid = document.querySelector('input[name="covid"]:checked').value;
+        const feedback = document.querySelector('textarea[name="feedback"]').value;
+
+        const sintomasSelecionados = Array.from(document.querySelectorAll('input[name="sint"]:checked')).map((checkbox) => checkbox.value);
 
         const formulario = {
             data,
@@ -43,7 +48,11 @@
             idade,
             sexo,
             pneumo,
-            doenc_resp
+            doenc_resp,
+            covid,
+            feedback,
+
+            sint: sintomasSelecionados
         };
 
         jsonData = JSON.stringify(formulario, null, 2);
@@ -123,7 +132,7 @@
     <spacing>-</spacing>
     <br>
 	<div>
-		<p1> Qual o sexo biológico do paciente? </p1>
+		<p1> Qual o sexo biológico do paciente? * </p1>
         <label>Masculino<input type="radio"
                           name="sexo"
                           value="masc" />
@@ -137,7 +146,7 @@
     <spacing>-</spacing>
     <br>
     <div>
-		<p1> O paciente está com pneumonia? </p1>
+		<p1> O paciente está com pneumonia? * </p1>
         <label>Sim<input type="radio"
                           name="pneumo"
                           value="sim_pneumo" />
@@ -155,7 +164,21 @@
     <spacing>-</spacing>
     <br>
     <div>
-		<p1> O paciente está com alguma outra doença respiratória? </p1>
+		<p1> O paciente já foi diagnosticado com COVID-19? * </p1>
+        <label>Sim<input type="radio"
+                          name="covid"
+                          value="sim_covid" />
+        </label>        
+        <label>Não<input type="radio"
+                            name="covid"
+                            value="nao_covid" />
+        </label>
+	</div>
+
+    <spacing>-</spacing>
+    <br>
+    <div>
+		<p1> O paciente está com alguma outra doença respiratória? * </p1>
         <label>Sim<input type="radio"
                           name="doenc_resp"
                           value="sim_doenc_resp" />
@@ -169,7 +192,7 @@
     <spacing>-</spacing>
     <br>
 	<div>
-		<p1> O paciente fuma? </p1>		
+		<p1> O paciente fuma? * </p1>		
         <label>Sim<input type="radio"
                           name="fumante"
                           value="sim_fuma" />
@@ -183,8 +206,39 @@
     <spacing>-</spacing>
     <br>
 	<div>
-		<label for='idade'> <p1> Qual é a idade do paciente? </p1> </label>
+		<label for='idade'> <p1> Qual é a idade do paciente? * </p1> </label>
 		<input name='idade' type="number" inputmode="numeric" pattern="[0-9]{3}" title="Insira a idade. Use apenas números. (ex: 18)" on:input={validarIdade} min="1" max="130" step="1"/>
+	</div>
+
+    <spacing>-</spacing>
+    <br>
+    <div>
+        <p1> O paciente possui algum dos sintomas a seguir? </p1>
+        <label> Tosse seca ou secretiva <input type="checkbox"
+            name="sint" id="s1" value="tosse_seca_secre" />
+        </label>
+        <label> Febre acima dos 38ºC <input type="checkbox"
+            name="sint" id="s2" value="febre_38" />
+        </label>
+        <label> Calafrios <input type="checkbox"
+            name="sint" id="s3" value="calafrio" />
+        </label>
+        <label> Dor torácica <input type="checkbox"
+            name="sint" id="s4" value="dor_torax" />
+        </label>
+        <label> Dispneia (falta de ar) <input type="checkbox"
+            name="sint" id="s5" value="dispneia" />
+        </label>
+    </div>
+
+
+    <spacing>-</spacing>
+    <br>
+	<div>
+		<label for='feedback'> <p1> Sugestões e comentários: </p1> </label>
+		<textarea name='feedback' cols="35" rows="5" maxlength="225" style="resize: none;" />
+        <spacing>-</spacing>
+        <br>
 	</div>
 
 </form>

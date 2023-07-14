@@ -21,7 +21,7 @@
 <p> <img style="vertical-align:middle" height=25 src="./img/p_3.png"> Frase</p>
 <p1>Grave agora a frase indicada:</p1>
 <br>
-
+<br>
 <button type="button"> A gaita do pai da Adelaie está embaixo da caixa. </button> 
 
 

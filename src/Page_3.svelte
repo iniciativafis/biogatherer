@@ -21,6 +21,7 @@
 <p> <img style="vertical-align:middle" height=25 src="./img/p_1.png"> Tosse </p>
 <p1>Grave agora uma sequência de tosse:</p1>
 <br>
+<br>
 <button type="button"> Preferencialmente uma sequência de três tosses seguidas. </button> 
 
 

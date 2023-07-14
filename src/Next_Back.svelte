@@ -31,6 +31,35 @@
 -->
 
 
+{#if page3_next_allow==false && cur_state == 2}	
+	<br><br><br><br>
+{/if}
+
+{#if page4_next_allow==false && cur_state == 3}	
+	<br><br><br><br>
+{/if}
+
+{#if page5_next_allow==false && cur_state == 4}	
+	<br><br><br><br>
+{/if}
+
+
+{#if page3_next_allow==true && cur_state == 2}	
+	<button type="button"> <b>Tosse registrada com sucesso!</b><br>Clique novamente em "<b>Gravar</b>" para nova entrada<br>ou em "<b>Avançar</b>" para prosseguir. </button>
+	<br>
+{/if}
+
+{#if page4_next_allow==true && cur_state == 3}	
+	<button type="button"> <b>Vogal registrada com sucesso!</b><br>Clique novamente em "<b>Gravar</b>" para nova entrada<br>ou em "<b>Avançar</b>" para prosseguir. </button> 
+	<br>
+{/if}
+
+{#if page5_next_allow==true && cur_state == 4}	
+	<button type="button"> <b>Frase registrada com sucesso!</b><br>Clique novamente em "<b>Gravar</b>" para nova entrada<br>ou em "<b>Avançar</b>" para prosseguir. </button> 
+	<br>
+{/if}
+
+<br>
 <button class='button_style' on:click={back_state}> <img height=40 src="./img/back.png"> </button>
 
 

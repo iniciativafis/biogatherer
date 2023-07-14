@@ -17,7 +17,7 @@
 <br>
 
 <p1>
-	<img style="vertical-align:middle" height=25 src="./img/item_1.png"> Ao fim da consulta, certifique-se que o ambiente está silencioso. Dê as devidas instruções ao paciente, sobre o procedimento que irá realizar.
+	<img style="vertical-align:middle" height=25 src="./img/item_1.png"> Ao fim da consulta, certifique-se que o ambiente está silencioso. Dê as devidas instruções ao paciente sobre o procedimento que irá realizar.
 	<br>
 	<img  height=200 src="./img/fig_1.png">
 	<spacing>-</spacing>

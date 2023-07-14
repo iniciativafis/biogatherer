@@ -21,7 +21,7 @@
 <p> <img style="vertical-align:middle" height=25 src="./img/p_2.png"> Vogal</p>
 <p1>Grave agora uma vogal sustentada:</p1>
 <br>
-
+<br>
 <button type="button"> /a/ </button> 
 
 <style>

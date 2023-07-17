@@ -34,7 +34,7 @@
 	<img style="vertical-align:middle" height=25 src="./img/item_3.png"> Solicite ao paciente tossir assim que o botão ‘Gravar’ for pressionado. A gravação será interrompida quando o botão ‘Parar’ for pressionado ou após 5 segundos. Repita este mesmo processo para a vogal sustentada e para a frase.
 	<br>
 	<br>
-	<img  height=200 src="./img/fig_23.png">
+	<img  height=150 src="./img/fig_23.png">
 	<spacing>-</spacing>
 	<br>
 	<br>

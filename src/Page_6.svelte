@@ -234,12 +234,12 @@
 
     <spacing>-</spacing>
     <br>
-	<div class="textarea-container">
+	<div_textarea>
 		<label for='feedback'> <p1> Sugestões e comentários: </p1> </label>
 		<textarea name='feedback' cols="35" rows="5" maxlength="225" style="resize: none;" />
         <spacing>-</spacing>
         <br>
-	</div>
+	</div_textarea>
 
 </form>
 
@@ -295,7 +295,7 @@
         color: red;
     }
 
-    .textarea-container {
+    div_textarea {
         display: flex;
         flex-direction: column;
         align-items: center;

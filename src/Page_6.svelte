@@ -206,7 +206,7 @@
     <spacing>-</spacing>
     <br>
 	<div>
-		<label for='idade'> <r> Qual é a idade do paciente?<r>*</r> </p1> </label>
+		<label for='idade'> <p1> Qual é a idade do paciente?<r>*</r> </p1> </label>
 		<input name='idade' type="number" inputmode="numeric" pattern="[0-9]{3}" title="Insira a idade. Use apenas números. (ex: 18)" on:input={validarIdade} min="1" max="130" step="1"/>
 	</div>
 

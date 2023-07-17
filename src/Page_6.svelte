@@ -236,6 +236,7 @@
     <br>
 	<div>
 		<label for='feedback'> <p1> Sugestões e comentários: </p1> </label>
+        <br>
 		<textarea name='feedback' cols="35" rows="5" maxlength="225" style="resize: none;" />
         <spacing>-</spacing>
         <br>

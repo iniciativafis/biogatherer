@@ -206,7 +206,7 @@
     <spacing>-</spacing>
     <br>
 	<div>
-		<label for='idade'> <p1> Qual é a idade do paciente?<r>*</r> </p1> </label>
+		<label for='idade'> <r> Qual é a idade do paciente?<r>*</r> </p1> </label>
 		<input name='idade' type="number" inputmode="numeric" pattern="[0-9]{3}" title="Insira a idade. Use apenas números. (ex: 18)" on:input={validarIdade} min="1" max="130" step="1"/>
 	</div>
 
@@ -234,9 +234,8 @@
 
     <spacing>-</spacing>
     <br>
-	<div>
+	<div class="textarea-container">
 		<label for='feedback'> <p1> Sugestões e comentários: </p1> </label>
-        <br>
 		<textarea name='feedback' cols="35" rows="5" maxlength="225" style="resize: none;" />
         <spacing>-</spacing>
         <br>
@@ -295,4 +294,11 @@
     r {
         color: red;
     }
+
+    .textarea-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 </style>

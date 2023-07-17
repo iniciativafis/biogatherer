@@ -54,7 +54,7 @@
 	<img style="vertical-align:middle" height=25 src="./img/item_6.png"> Não deixe de higienizar seu aparelho, evitando o risco de contaminação e transmissão de doenças.
 	<br>
 	<br>
-	<img  height=300 src="./img/fig_5.png">
+	<img  height=250 src="./img/fig_5.png">
 </p1>
 <br>
 

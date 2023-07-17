@@ -34,25 +34,27 @@
 	<img style="vertical-align:middle" height=25 src="./img/item_3.png"> Solicite ao paciente tossir assim que o botão ‘Gravar’ for pressionado. A gravação será interrompida quando o botão ‘Parar’ for pressionado ou após 5 segundos. Repita este mesmo processo para a vogal sustentada e para a frase.
 	<br>
 	<br>
-	<img  height=200 src="./img/fig_3.png">
+	<img  height=200 src="./img/fig_23.png">
 	<spacing>-</spacing>
 	<br>
 	<br>
 	<img style="vertical-align:middle" height=25 src="./img/item_4.png"> Preencha o formulário de anamnese com atenção.
 	<br>
 	<br>
-	<img  height=200 src="./img/fig_4.png">
+	<img  height=200 src="./img/fig_3.png">
 	<spacing>-</spacing>
 	<br>
 	<br>
 	<img style="vertical-align:middle" height=25 src="./img/item_5.png"> Confirme e estará pronto!!
 	<br>
 	<br>
-	<img  height=200 src="./img/fig_5.png">
+	<img  height=200 src="./img/fig_4.png">
 	<br>
 	<br>
 	<img style="vertical-align:middle" height=25 src="./img/item_6.png"> Não deixe de higienizar seu aparelho, evitando o risco de contaminação e transmissão de doenças.
-	
+	<br>
+	<br>
+	<img  height=200 src="./img/fig_5.png">
 </p1>
 <br>
 

@@ -132,7 +132,7 @@
     <spacing>-</spacing>
     <br>
 	<div>
-		<p1> Qual o sexo biológico do paciente? * </p1>
+		<p1> Qual o sexo biológico do paciente?<r>*</r> </p1>
         <label>Masculino<input type="radio"
                           name="sexo"
                           value="masc" />
@@ -146,7 +146,7 @@
     <spacing>-</spacing>
     <br>
     <div>
-		<p1> O paciente está com pneumonia? * </p1>
+		<p1> O paciente está com pneumonia?<r>*</r> </p1>
         <label>Sim<input type="radio"
                           name="pneumo"
                           value="sim_pneumo" />
@@ -164,7 +164,7 @@
     <spacing>-</spacing>
     <br>
     <div>
-		<p1> O paciente já foi diagnosticado com COVID-19? * </p1>
+		<p1> O paciente já foi diagnosticado com COVID-19?<r>*</r> </p1>
         <label>Sim<input type="radio"
                           name="covid"
                           value="sim_covid" />
@@ -178,7 +178,7 @@
     <spacing>-</spacing>
     <br>
     <div>
-		<p1> O paciente está com alguma outra doença respiratória? * </p1>
+		<p1> O paciente está com alguma outra doença respiratória?<r>*</r> </p1>
         <label>Sim<input type="radio"
                           name="doenc_resp"
                           value="sim_doenc_resp" />
@@ -192,7 +192,7 @@
     <spacing>-</spacing>
     <br>
 	<div>
-		<p1> O paciente fuma? * </p1>		
+		<p1> O paciente fuma?<r>*</r> </p1>		
         <label>Sim<input type="radio"
                           name="fumante"
                           value="sim_fuma" />
@@ -206,7 +206,7 @@
     <spacing>-</spacing>
     <br>
 	<div>
-		<label for='idade'> <p1> Qual é a idade do paciente? * </p1> </label>
+		<label for='idade'> <p1> Qual é a idade do paciente?<r>*</r> </p1> </label>
 		<input name='idade' type="number" inputmode="numeric" pattern="[0-9]{3}" title="Insira a idade. Use apenas números. (ex: 18)" on:input={validarIdade} min="1" max="130" step="1"/>
 	</div>
 
@@ -290,4 +290,8 @@
 		color: #ffffff;		
 		font-size: 1em;
 	}
+
+    r {
+        color: red;
+    }
 </style>

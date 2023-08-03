@@ -31,7 +31,7 @@
     }
 
     function salvarFormulario() {
-        const data = date;
+        const data = date+local;
         const fumante = document.querySelector('input[name="fumante"]:checked').value;
         const idade = document.querySelector('input[name="idade"]').value;
         const sexo = document.querySelector('input[name="sexo"]:checked').value;
@@ -113,6 +113,21 @@
             return typeof args[i] != 'undefined' ? args[i++] : '';
         });
     };
+
+
+    let local = "";
+
+	const successCallback = (position) => {
+		console.log(position);
+		local = "_" + position.coords.latitude + "_" + position.coords.longitude;
+		console.log(local);
+	};
+
+	const errorCallback = (error) => {
+		console.log(error);
+	};
+
+	navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 
 </script>
 

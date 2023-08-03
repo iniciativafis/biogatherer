@@ -22,7 +22,7 @@
 <p1>Grave agora a frase indicada:</p1>
 <br>
 <br>
-<button type="button"> A gaita do pai da Adelaie está embaixo da caixa. </button> 
+<button type="button"> Quem faz o bem, logo alcança a felicidade na vida. </button> 
 
 
 <style>
